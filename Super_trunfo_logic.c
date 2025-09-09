@@ -34,25 +34,25 @@ int main(){
     //Cadastro da primeira carta:
     printf("\n");
     printf("*** Cadastro da primeira carta ***\n");
-    printf("Digite o Estado: ");
+    printf("Digite o Estado (Ex: A a H): ");
     scanf("%c", &estado1);
 
-    printf("Digite o código da cidade: ");
+    printf("Digite o código da cidade (Ex: 01 a 04): ");
     scanf("%s", &codigodacidade1);
 
     printf("Digite o nome da cidade: ");
     scanf(" %[^\n]", nomedacidade1);
 
-    printf("Digita a população: ");
+    printf("Digita a população (Ex: 1000000): ");
     scanf("%lu", &populacao1);
 
-    printf("Digita a área: ");
+    printf("Digita a área (Ex: 1000.50): ");
     scanf("%f", &area1);
 
-    printf("Digite o pib: ");
+    printf("Digite o pib (Ex: 100.50) ");
     scanf("%f", &pib1);
 
-    printf("Digito o número de pontos turísticos: ");
+    printf("Digito o número de pontos turísticos (Ex: 5): ");
     scanf("%d", &numerodepontosturisticos1);
 
     //Calculo da densidade populacional e PIB per capita da primeira carta
@@ -65,25 +65,25 @@ int main(){
     //Cadastro da segunda carta:
     printf("\n");
     printf("*** Cadastro da segunda carta ***\n");
-    printf("Digite o Estado: ");
+    printf("Digite o Estado (Ex: A a H): ");
     scanf(" %c", &estado2);
 
-    printf("Digite o código da cidade: ");
+    printf("Digite o código da cidade (Ex: 01 a 04): ");
     scanf("%s", &codigodacidade2);
 
     printf("Digite o nome da cidade: ");
     scanf(" %[^\n]", nomedacidade2);
 
-    printf("Digita a população: ");
+    printf("Digita a população (Ex: 10000000): ");
     scanf("%lu", &populacao2);
 
-    printf("Digita a área: ");
+    printf("Digita a área (Ex: 1000.50): ");
     scanf("%f", &area2);
 
-    printf("Digite o pib: ");
+    printf("Digite o pib (Ex: 100.50): ");
     scanf("%f", &pib2);
 
-    printf("Digito o número de pontos turísticos: ");
+    printf("Digito o número de pontos turísticos (Ex: 5): ");
     scanf("%d", &numerodepontosturisticos2);
 
     //Calculo da densidade populacional e PIB per capita da segundo carta
